@@ -3,6 +3,14 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+ .unicauca{
+    width: 60px;
+  height: 60px;
+ }
+ .Alcaldia{
+  width: 40px;
+  height: 40px;
+ }
  .contenDes{
  	margin-left: 30px;
  }
@@ -144,6 +152,16 @@ imagen a:nth-child(2){
   font-size: 40px;
  
  }
+  .TituloPeq2{
+ font-family: Cartwheel;
+  font-size: 40px;
+      text-shadow:
+   -1px -1px 0 #FFFFFF,
+    1px -1px 0 #FFFFFF,
+   -1px 1px 0 #FFFFFF,
+    1px 1px 0 #FFFFFF;
+ 
+ }
   .TituloPeqTit{
  font-family: Cartwheel;
   font-size: 40px;
@@ -165,8 +183,28 @@ imagen a:nth-child(2){
    -1px 1px 0 #201d91,
     1px 1px 0 #201d91;
  }
+.carruselMapa{
+width: 800px;
+height: 100px;
+ }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
 
+  background-image: none;
+}
 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
 .carruselFondo{
 
 text-align: center;
